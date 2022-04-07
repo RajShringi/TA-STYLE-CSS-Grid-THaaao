@@ -1,0 +1,20 @@
+@import "var";
+@import "reset";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+
+body {
+  background: $background;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1280px;
+  width: 1000%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.full-width {
+  max-width: 100%;
+}
