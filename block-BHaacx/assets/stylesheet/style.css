@@ -148,5 +148,93 @@ a {
 
 .full-width {
   max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  margin-top: 1rem;
+}
+
+.btn-primary {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 2px solid #273131;
+  color: #273131;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background: #ecaf4e;
+  color: #fff;
+  border-color: #fff;
+}
+
+h2 {
+  font-size: 2.3rem;
+  font-weight: 200;
+  margin-bottom: 2rem;
+  line-height: 1.1;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.container-sm {
+  width: 85%;
+}
+
+.navbar {
+  padding: 1rem 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  color: #273131;
+  font-weight: 500;
+}
+
+.navbar ul a {
+  color: #273131;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 200;
+  margin-left: 1.5rem;
+}
+
+.navbar ul a:hover {
+  color: #f1cfa3;
 }
 /*# sourceMappingURL=style.css.map */
