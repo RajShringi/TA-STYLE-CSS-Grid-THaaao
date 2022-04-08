@@ -22,8 +22,46 @@
       font-weight: 200;
       margin-left: 1.5rem;
       &:hover {
-        color: $highlight-text-color;
+        color: $secondary;
       }
     }
+  }
+}
+
+//Grid container
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.col-span-2 {
+  grid-column: span 2;
+  align-self: stretch;
+}
+
+// hero
+.hero {
+  font-size: 0;
+  height: 90vh;
+}
+.hero-article {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background: $primary;
+  padding: 0 2rem;
+  font-size: 1rem;
+  .welcome {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  h2 {
+    color: $bold-text-color;
+    span {
+      font-weight: 400;
+    }
+  }
+  p {
+    color: $light-text-color;
   }
 }

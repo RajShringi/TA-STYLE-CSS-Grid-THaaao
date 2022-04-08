@@ -203,7 +203,7 @@ h2 {
 }
 
 p {
-  margin-bottom: 1rem;
+  margin-bottom: 0.95rem;
   font-weight: 200;
   font-size: 1rem;
 }
@@ -235,6 +235,58 @@ p {
 }
 
 .navbar ul a:hover {
-  color: #f1cfa3;
+  color: #ecaf4e;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.col-span-2 {
+  grid-column: span 2;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+}
+
+.hero {
+  font-size: 0;
+  height: 90vh;
+}
+
+.hero-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f5e3d7;
+  padding: 0 2rem;
+  font-size: 1rem;
+}
+
+.hero-article .welcome {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero-article h2 {
+  color: #273131;
+}
+
+.hero-article h2 span {
+  font-weight: 400;
+}
+
+.hero-article p {
+  color: #66615e;
 }
 /*# sourceMappingURL=style.css.map */
