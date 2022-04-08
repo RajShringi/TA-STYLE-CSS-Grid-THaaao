@@ -260,8 +260,8 @@ nav ul li a:hover {
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
-  width: 20rem;
-  height: 20rem;
+  width: 15rem;
+  height: 15rem;
 }
 
 .grid-container article a {
