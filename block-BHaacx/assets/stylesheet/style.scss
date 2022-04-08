@@ -37,6 +37,10 @@
   grid-column: span 2;
   align-self: stretch;
 }
+.col-span-1 {
+  grid-column: span 1;
+  align-self: stretch;
+}
 
 // hero
 .hero {
@@ -51,7 +55,7 @@
   padding: 0 2rem;
   font-size: 1rem;
   .welcome {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
     letter-spacing: 2px;
   }
@@ -63,5 +67,38 @@
   }
   p {
     color: $light-text-color;
+  }
+}
+
+// About
+.about {
+  article {
+    padding: 2rem;
+    .hightlight {
+      color: $secondary;
+    }
+    p {
+      color: $light-text-color;
+    }
+  }
+  .skills {
+    padding: 2rem;
+    background: $secondary;
+    h2,
+    p {
+      color: #fff;
+    }
+    .skill {
+      margin-bottom: 0.6rem;
+      h6 {
+        font-size: 0.8rem;
+        font-weight: 500;
+      }
+      p {
+        margin-bottom: 0rem;
+        font-size: 0.8rem;
+        font-weight: 500;
+      }
+    }
   }
 }
