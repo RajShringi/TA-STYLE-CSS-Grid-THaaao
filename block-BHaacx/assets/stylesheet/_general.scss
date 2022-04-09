@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.full-width {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  margin-top: 1rem;
+  &-primary {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 2px solid $bold-text-color;
+    color: $bold-text-color;
+    font-size: 0.8rem;
+    font-weight: 600;
+    &:hover {
+      background: $secondary;
+      color: #fff;
+      border-color: #fff;
+    }
+  }
+  &-secondary {
+    background: #fff;
+    color: $bold-text-color;
+    font-weight: 300;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: 2rem;
+  }
+}
+
+h2 {
+  font-size: 2.3rem;
+  font-weight: 200;
+  margin-bottom: 2rem;
+  line-height: 1.1;
+}
+
+h3 {
+  font-weight: 200;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+
+.container-sm {
+  width: 85%;
+}
+
+progress {
+  width: 100%;
+  appearance: none;
+  height: 4px;
+  background-color: #fff;
+}
+progress::-webkit-progress-bar {
+  background-color: #fff;
+}
+progress::-webkit-progress-value {
+  background-color: $bold-text-color;
+}
