@@ -102,3 +102,34 @@
     }
   }
 }
+
+//tech skills
+.tech-skills {
+  .tech-skill {
+    text-align: center;
+    padding: 2rem 4rem;
+    color: #fff;
+    &:nth-child(1) {
+      background-color: $secondary;
+    }
+    &:nth-child(2) {
+      background-color: $tertiary;
+    }
+    &:nth-child(3) {
+      background-color: $bold-text-color;
+    }
+    &:nth-child(4) {
+      background-color: #fff;
+      color: $bold-text-color;
+    }
+    div {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+    h3 {
+      font-weight: 200;
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+    }
+  }
+}

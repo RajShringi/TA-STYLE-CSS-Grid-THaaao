@@ -350,4 +350,38 @@ progress::-webkit-progress-value {
   font-size: 0.8rem;
   font-weight: 500;
 }
+
+.tech-skills .tech-skill {
+  text-align: center;
+  padding: 2rem 4rem;
+  color: #fff;
+}
+
+.tech-skills .tech-skill:nth-child(1) {
+  background-color: #ecaf4e;
+}
+
+.tech-skills .tech-skill:nth-child(2) {
+  background-color: #ef663b;
+}
+
+.tech-skills .tech-skill:nth-child(3) {
+  background-color: #273131;
+}
+
+.tech-skills .tech-skill:nth-child(4) {
+  background-color: #fff;
+  color: #273131;
+}
+
+.tech-skills .tech-skill div {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.tech-skills .tech-skill h3 {
+  font-weight: 200;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
 /*# sourceMappingURL=style.css.map */
