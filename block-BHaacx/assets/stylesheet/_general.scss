@@ -52,6 +52,14 @@ a {
       border-color: #fff;
     }
   }
+  &-secondary {
+    background: #fff;
+    color: $bold-text-color;
+    font-weight: 300;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: 2rem;
+  }
 }
 
 h2 {

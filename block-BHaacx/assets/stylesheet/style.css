@@ -195,6 +195,15 @@ a {
   border-color: #fff;
 }
 
+.btn-secondary {
+  background: #fff;
+  color: #273131;
+  font-weight: 300;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-top: 2rem;
+}
+
 h2 {
   font-size: 2.3rem;
   font-weight: 200;
@@ -277,6 +286,10 @@ progress::-webkit-progress-value {
 
 .col-span-1 {
   grid-column: span 1;
+}
+
+.col-span-4 {
+  grid-column: span 4;
 }
 
 .hero {
@@ -449,5 +462,107 @@ progress::-webkit-progress-value {
 
 .education article {
   background-color: #ecaf4e;
+}
+
+.contacts {
+  background-color: #ef663b;
+  color: #fff;
+}
+
+.contacts .contact-form {
+  padding: 2rem;
+}
+
+.contacts .contact-form h2 {
+  margin-bottom: 0.8rem;
+}
+
+.contacts .contact-form p {
+  margin-bottom: 2rem;
+}
+
+.contacts .contact-form input,
+.contacts .contact-form textarea {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-family: "Poppins", sans-serif;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  color: #fff;
+}
+
+.contacts .contact-form input::-webkit-input-placeholder,
+.contacts .contact-form textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.contacts .contact-form input:-ms-input-placeholder,
+.contacts .contact-form textarea:-ms-input-placeholder {
+  color: #fff;
+}
+
+.contacts .contact-form input::-ms-input-placeholder,
+.contacts .contact-form textarea::-ms-input-placeholder {
+  color: #fff;
+}
+
+.contacts .contact-form input::placeholder,
+.contacts .contact-form textarea::placeholder {
+  color: #fff;
+}
+
+.contacts .contact-info {
+  padding: 2rem 4rem;
+  background: #273131;
+}
+
+.contacts .contact-info .office-address {
+  margin-bottom: 2rem;
+}
+
+.contacts .contact-info .office-address address {
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+
+.contacts .contact-info .type-of-contacts div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.contacts .contact-info .type-of-contacts div i {
+  margin-right: 1.5rem;
+}
+
+.contacts .contact-info .type-of-contacts div .highlight {
+  color: #ecaf4e;
+}
+
+.contacts figure {
+  margin-top: 2rem;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.contacts iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */
