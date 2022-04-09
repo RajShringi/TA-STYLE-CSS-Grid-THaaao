@@ -382,16 +382,17 @@ progress::-webkit-progress-value {
   font-size: 2rem;
 }
 
-.experience {
-  margin-bottom: 3rem;
+.experience,
+.education {
   font-size: 0;
 }
 
-.experience article {
+.experience article,
+.education article {
   font-size: 1rem;
   background-color: #ef663b;
   color: #fff;
-  padding: 2rem;
+  padding: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -403,15 +404,18 @@ progress::-webkit-progress-value {
           align-items: center;
 }
 
-.experience article h2 {
+.experience article h2,
+.education article h2 {
   margin-bottom: 0.5rem;
 }
 
-.experience article .previous-companies {
+.experience article .previous-companies,
+.education article .previous-companies {
   font-size: 0.8rem;
 }
 
-.experience article .task {
+.experience article .task,
+.education article .task {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -424,19 +428,26 @@ progress::-webkit-progress-value {
   margin-bottom: 1rem;
 }
 
-.experience article .task h3 {
+.experience article .task h3,
+.education article .task h3 {
   margin-bottom: 0;
 }
 
-.experience article .task h3 span {
+.experience article .task h3 span,
+.education article .task h3 span {
   font-size: 0.8rem;
   color: #273131;
   font-weight: 500;
 }
 
-.experience article .task i {
+.experience article .task i,
+.education article .task i {
   font-size: 1.5rem;
   display: inline-block;
   margin-right: 1rem;
+}
+
+.education article {
+  background-color: #ecaf4e;
 }
 /*# sourceMappingURL=style.css.map */
