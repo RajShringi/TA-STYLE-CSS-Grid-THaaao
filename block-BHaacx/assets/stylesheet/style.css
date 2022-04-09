@@ -202,6 +202,12 @@ h2 {
   line-height: 1.1;
 }
 
+h3 {
+  font-weight: 200;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
 p {
   margin-bottom: 1rem;
   font-weight: 200;
@@ -260,20 +266,17 @@ progress::-webkit-progress-value {
   display: grid;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 
 .col-span-2 {
   grid-column: span 2;
-  -ms-flex-item-align: stretch;
-      -ms-grid-row-align: stretch;
-      align-self: stretch;
 }
 
 .col-span-1 {
   grid-column: span 1;
-  -ms-flex-item-align: stretch;
-      -ms-grid-row-align: stretch;
-      align-self: stretch;
 }
 
 .hero {
@@ -379,9 +382,61 @@ progress::-webkit-progress-value {
   font-size: 2rem;
 }
 
-.tech-skills .tech-skill h3 {
-  font-weight: 200;
+.experience {
+  margin-bottom: 3rem;
+  font-size: 0;
+}
+
+.experience article {
+  font-size: 1rem;
+  background-color: #ef663b;
+  color: #fff;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.experience article h2 {
+  margin-bottom: 0.5rem;
+}
+
+.experience article .previous-companies {
+  font-size: 0.8rem;
+}
+
+.experience article .task {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   margin-bottom: 1rem;
-  font-size: 1.2rem;
+}
+
+.experience article .task h3 {
+  margin-bottom: 0;
+}
+
+.experience article .task h3 span {
+  font-size: 0.8rem;
+  color: #273131;
+  font-weight: 500;
+}
+
+.experience article .task i {
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-right: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
