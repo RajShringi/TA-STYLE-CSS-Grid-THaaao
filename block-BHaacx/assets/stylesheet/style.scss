@@ -247,3 +247,29 @@
     bottom: 0;
   }
 }
+
+.footer-content {
+  max-width: 37.5rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 5rem 0;
+  text-align: center;
+  p {
+    font-size: 0.8rem;
+    span {
+      color: $secondary;
+    }
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      color: $bold-text-color;
+      margin: 0 1rem;
+      &:hover {
+        color: $secondary;
+      }
+    }
+  }
+}

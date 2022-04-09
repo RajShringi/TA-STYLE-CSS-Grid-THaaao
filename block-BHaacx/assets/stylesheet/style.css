@@ -565,4 +565,41 @@ progress::-webkit-progress-value {
   right: 0;
   bottom: 0;
 }
+
+.footer-content {
+  max-width: 37.5rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.footer-content p {
+  font-size: 0.8rem;
+}
+
+.footer-content p span {
+  color: #ecaf4e;
+}
+
+.footer-content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-content ul a {
+  color: #273131;
+  margin: 0 1rem;
+}
+
+.footer-content ul a:hover {
+  color: #ecaf4e;
+}
 /*# sourceMappingURL=style.css.map */
